@@ -1,0 +1,41 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&display=swap'); 
+
+ *{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(147, 237, 225);
+    color:blue;
+    font-size: 70px;
+}
+
+
+div{
+    color:pink;
+    font-size:50px;
+
+}
+
+header{
+    padding: 32px;
+    border-bottom: 20px whitesmoke;
+    background-color:gray
+}
+header div {
+    text-align:  center;
+}
+header div a {
+    color:beige;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0 16px;
+    text-decoration: none;
+    font-family: anekdevanagari; 
+}
+header div a:hover{
+    color:rgb(40, 149, 207);
+    transition: color 700ms;
+}
