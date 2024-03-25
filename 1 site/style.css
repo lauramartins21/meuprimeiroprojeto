@@ -24,18 +24,87 @@ header{
     border-bottom: 20px whitesmoke;
     background-color:gray
 }
-header div {
+.links {
     text-align:  center;
 }
-header div a {
-    color:beige;
+.links a {
+    color:rgb(216, 32, 112);
     font-size: 20px;
-    line-height: 30px;
-    margin: 0 16px;
+    line-height: 80px;
+    margin: 19px;
+    margin-bottom: 60px;
+    border-radius: 12px;
+    padding-bottom: 40px;
     text-decoration: none;
     font-family: anekdevanagari; 
 }
-header div a:hover{
-    color:rgb(40, 149, 207);
+.links a:hover{
+    color: var(--subcor);
     transition: color 700ms;
+    font-size: 23px;
+}
+
+#box {
+    text-align: center;
+    padding: 32px;
+}
+#box img{
+    border-radius: 50%;
+    border: 5px;
+    margin-bottom: 32px;
+}
+#box h1 {
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: bold;
+    color: #0c7b5c;
+}
+#box h2 {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: normal;
+    margin-top: 8px;
+    opacity: 0.8;
+    color: #0c7b5c;
+}
+#box p {
+    max-width:500px ;
+    margin: 24px auto;
+    font-size: 24px;
+    line-height: 20px;
+    color: #0c7b5c;
+}
+:root{
+ --subcor:#0a7784;
+}
+header{
+    padding: 32px;
+    border-bottom: 3px solid var(--subcor);
+    background-color: black;
+}
+#box h1{
+    padding:4px;
+}
+#box h2{
+    padding: 10px;
+}
+#box p:hover {
+    font-size: 23px; 
+}
+#box a{
+    color: var(--subcor);
+    transition: 600ms;
+}
+
+ #linksfooter {
+    padding-top: 10px;
+
+}
+ #linksfooter a {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    padding-right: 5px;
+    padding-block-end: 60px;
+
+    border-bottom: 5px solid var(--subcor);
 }
